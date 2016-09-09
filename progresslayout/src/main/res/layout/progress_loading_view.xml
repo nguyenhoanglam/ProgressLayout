@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loadingStateRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.nguyenhoanglam.progresslayout.ProgressWheel
+        android:id="@+id/loadingStateProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        wheel:matProg_barColor="@color/teal"
+        wheel:matProg_progressIndeterminate="true" />
+
+</RelativeLayout>

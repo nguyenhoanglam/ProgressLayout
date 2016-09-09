@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressLayout">
+        <attr name="loadingProgressBarRadius" format="dimension" />
+        <attr name="loadingProgressBarSpinWidth" format="dimension" />
+        <attr name="loadingProgressBarColor" format="color" />
+        <attr name="loadingBackgroundColor" format="color" />
+
+        <attr name="emptyImageWidth" format="dimension" />
+        <attr name="emptyImageHeight" format="dimension" />
+        <attr name="emptyContentTextSize" format="dimension" />
+        <attr name="emptyContentTextColor" format="color" />
+        <attr name="emptyBackgroundColor" format="color" />
+
+        <attr name="errorImageWidth" format="dimension" />
+        <attr name="errorImageHeight" format="dimension" />
+        <attr name="errorContentTextSize" format="dimension" />
+        <attr name="errorContentTextColor" format="color" />
+        <attr name="errorButtonTextSize" format="dimension" />
+        <attr name="errorButtonTextColor" format="color" />
+        <attr name="errorBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+</resources>

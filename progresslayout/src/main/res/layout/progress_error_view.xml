@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/errorStateRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/errorViewRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_small">
+
+        <ImageView
+            android:id="@+id/errorStateImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:background="@color/black"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/errorStateContentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/spacing_small"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            tools:text="Error state content" />
+
+        <Button
+            android:id="@+id/errorStateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:background="@drawable/bg_button"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:paddingBottom="@dimen/spacing_small"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large"
+            android:paddingTop="@dimen/spacing_small"
+            android:text="@string/try_again"
+            android:textAllCaps="true"
+            android:textColor="@color/teal" />
+
+    </LinearLayout>
+
+</RelativeLayout>
