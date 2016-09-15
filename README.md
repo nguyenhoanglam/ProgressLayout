@@ -97,7 +97,7 @@ dependencies {
     app:emptyContentTextColor="@color/grey"
     app:emptyContentTextSize="14sp"
     app:emptyImageHeight="200dp"
-    app:emptyImageWidth="2000dp"
+    app:emptyImageWidth="200dp"
     app:errorButtonTextColor="@color/teal"
     app:errorButtonTextSize="14sp"
     app:errorContentTextColor="@color/grey"
