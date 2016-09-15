@@ -23,6 +23,33 @@ dependencies {
 ## How to use 
 - Use ProgressLayout like RelativeLayout in xml file.
 ```java
+<?xml version="1.0" encoding="utf-8"?>
+<com.nguyenhoanglam.progresslayout.ProgressLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/progressLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        app:theme="@style/CustomToolbarTheme" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="YOUR CONTENT HERE"
+        android:textSize="24sp" />
+</com.nguyenhoanglam.progresslayout.ProgressLayout>
+```
+- Call methods to show loading, empty or error when needed.
+```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
