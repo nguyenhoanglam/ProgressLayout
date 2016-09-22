@@ -2,9 +2,9 @@
 An extension of RelativeLayout that helps show loading, empty and error layout.
 
 ## Screenshot
-<img src="https://cloud.githubusercontent.com/assets/4979755/18380044/bab54c72-769f-11e6-8427-cdf6d3920b1c.png" height="683" width="384">
-<img src="https://cloud.githubusercontent.com/assets/4979755/18380045/bb1fb300-769f-11e6-89b1-5fd3742385f1.png" height="683" width="384">
-<img src="https://cloud.githubusercontent.com/assets/4979755/18380046/bb5f49a2-769f-11e6-8112-0f46b8c0d526.png" height="683" width="384">
+<img src="https://cloud.githubusercontent.com/assets/4979755/18741168/db29b992-80d7-11e6-9a6a-36b626b003bf.png" height="683" width="384">
+<img src="https://cloud.githubusercontent.com/assets/4979755/18741171/db86bb42-80d7-11e6-9d6f-c7a00b2b9b27.png" height="683" width="384">
+<img src="https://cloud.githubusercontent.com/assets/4979755/18741169/db7879ec-80d7-11e6-9158-a4ff89b78e79.png" height="683" width="384">
 ## Download
 Add to your module's build.gradle:
 ```java
@@ -17,7 +17,7 @@ allprojects {
 and:
 ```java
 dependencies {
-    compile 'com.github.nguyenhoanglam:ProgressLayout:1.0.0'
+    compile 'com.github.nguyenhoanglam:ProgressLayout:1.0.1'
 }
 ```
 ## How to use 
@@ -105,8 +105,8 @@ dependencies {
     app:errorImageHeight="200dp"
     app:errorImageWidth="200dp"
     app:loadingProgressBarColor="@color/teal"
-    app:loadingProgressBarRadius="100dp"
-    app:loadingProgressBarSpinWidth="8dp"/>
+    app:loadingProgressBarRadius="200dp"
+    app:loadingProgressBarSpinWidth="10dp"/>
 ```
 ##License
 Copyright 2016 Nguyen Hoang Lam

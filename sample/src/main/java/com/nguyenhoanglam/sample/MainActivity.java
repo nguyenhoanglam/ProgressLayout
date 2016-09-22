@@ -39,15 +39,15 @@ public class MainActivity extends AppCompatActivity {
         },skipIds);
 
 
-        // Show progress layout, hide all main views
-        progressLayout.showLoading();
-        progressLayout.showEmpty(ContextCompat.getDrawable(this, R.drawable.ic_empty), "Empty data");
-        progressLayout.showError(ContextCompat.getDrawable(this, R.drawable.ic_no_connection), "No connection", "RETRY", new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Reloading...", Toast.LENGTH_SHORT).show();
-            }
-        });
+          // Show progress layout, hide all main views
+//        progressLayout.showLoading();
+//        progressLayout.showEmpty(ContextCompat.getDrawable(this, R.drawable.ic_empty), "Empty data");
+//        progressLayout.showError(ContextCompat.getDrawable(this, R.drawable.ic_no_connection), "No connection", "RETRY", new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Toast.makeText(MainActivity.this, "Reloading...", Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
     }
 }

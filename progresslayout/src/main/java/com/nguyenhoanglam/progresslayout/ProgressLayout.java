@@ -297,7 +297,8 @@ public class ProgressLayout extends RelativeLayout {
 
             loadingStateProgressBar = (ProgressWheel) view.findViewById(R.id.loadingStateProgressBar);
 
-            loadingStateProgressBar.setCircleRadius(loadingStateProgressBarRadius);
+            loadingStateProgressBar.getLayoutParams().width = loadingStateProgressBarRadius;
+            loadingStateProgressBar.getLayoutParams().height = loadingStateProgressBarRadius;
             loadingStateProgressBar.setBarWidth(loadingStateProgressBarSpinWidth);
 
             if (loadingStateProgressBarColor != Color.TRANSPARENT) {

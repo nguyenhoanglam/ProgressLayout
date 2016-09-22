@@ -3,7 +3,8 @@
     xmlns:wheel="http://schemas.android.com/apk/res-auto"
     android:id="@+id/loadingStateRelativeLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing_small">
 
     <com.nguyenhoanglam.progresslayout.ProgressWheel
         android:id="@+id/loadingStateProgressBar"

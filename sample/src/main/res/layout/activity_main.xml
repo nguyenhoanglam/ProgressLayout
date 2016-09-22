@@ -15,8 +15,8 @@
     app:errorImageHeight="200dp"
     app:errorImageWidth="200dp"
     app:loadingProgressBarColor="@color/teal"
-    app:loadingProgressBarRadius="100dp"
-    app:loadingProgressBarSpinWidth="8dp">
+    app:loadingProgressBarRadius="200dp"
+    app:loadingProgressBarSpinWidth="10dp">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
