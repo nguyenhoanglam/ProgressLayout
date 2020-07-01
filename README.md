@@ -7,6 +7,7 @@ An extension of RelativeLayout that helps show loading, empty and error layout.
 <img src="https://cloud.githubusercontent.com/assets/4979755/18380046/bb5f49a2-769f-11e6-8112-0f46b8c0d526.png" height="683" width="384">
 ## Download
 Add to your module's build.gradle:
+
 ```java
 allprojects {
     repositories {
@@ -15,13 +16,16 @@ allprojects {
 }
 ```
 and:
+
 ```java
 dependencies {
     compile 'com.github.nguyenhoanglam:ProgressLayout:1.0.0'
 }
 ```
+
 ## How to use 
 - Use ProgressLayout like RelativeLayout in xml file.
+
 ```java
 @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +57,9 @@ dependencies {
         });
     }
 ```
+
 - Custom ProgressLayout's attributes
+
 ```java
 <com.nguyenhoanglam.progresslayout.ProgressLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -74,6 +80,7 @@ dependencies {
     app:loadingProgressBarRadius="100dp"
     app:loadingProgressBarSpinWidth="8dp"/>
 ```
+
 ##License
 Copyright 2016 Nguyen Hoang Lam
 
